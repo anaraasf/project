@@ -1,0 +1,223 @@
+/*========================================= CSS Reset ====================================================================================*/
+*{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/*========================================= general styles ====================================================================================*/
+h4, h3, h2, h1{
+	color: #ccc;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.logo{
+	margin: 15px 0px 15px 40px;
+}
+
+
+/*========================================= header/nav ====================================================================================*/
+header{
+	border-top: 7px solid red;
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #777777;
+}
+nav{
+	background-color: black;
+	height: 28px;
+}
+.header-ul{
+	display: block;
+	margin: 0px auto;
+	width: 750px;
+}
+.headerlink, .active{
+	background-color: #bbb;
+	width: 140px;
+	display: inline;
+	padding: 5px 20px;
+	margin: 0px -2px;
+	float: left;
+	text-align: center;
+	border-right: 5px solid black;
+}
+.headerlink:hover{
+	background-color: red;
+	transition: background-color .8s;
+}
+.active{
+	background-color: #777777;
+	cursor: default;
+}
+
+/*========================================= main ====================================================================================*/
+.featureImage{
+	display: block;
+	width: 1000px;
+	margin: 0px auto 50px;
+}
+main{
+	background-color: #333333;
+	line-height: 1.5;
+}
+iframe{
+	display: block;
+	margin: 20px auto 70px;
+	width: 560px;
+}
+p, small{
+	color: #aaa;
+	margin: 15px 0px;
+}
+.main-elements{
+	width:1000px;
+	display: block;
+	margin: 20px auto 40px;
+}.mainbottom{
+	background-color: #555555;
+	height: 40px;
+	margin-top: -15px;
+}
+hr{
+	border-color: #aaa;
+	margin-bottom: 15px;
+}
+
+dd{
+	color: #ccc;
+	text-align: center;
+	padding-top: 7px;
+	font-family: Georgia;
+}
+strong{
+	color: #ccc;
+}
+.floatpicture{
+	float: right;
+}
+fieldset{
+	padding: 24px;
+}
+.textname{
+	background-color: #eee;
+	color: black;
+	height: 20px;
+	width: 250px;
+}
+textarea{
+	background-color: #eee;
+}
+.textname:not(#First-name){
+	margin-bottom: 15px;
+}
+.black{
+	color: black;
+}
+.input{
+	background-color: #555555;
+	margin-top: 20px;
+	margin-right: 25px;
+	width: 100px;
+	height: 30px;
+	border: none;
+}
+.input:hover{
+	background-color: red;
+	transition: background-color .5s;
+}
+ul{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+b {
+	color: #bbb;
+}
+.infoBox{
+	background-color: #444444;
+	width: 940px;
+	margin: 40px auto;
+	padding: 25px 30px 30px;
+	font-size: 0.9em;
+}
+.infoBox h3{
+	width: 550px;
+	border-bottom: 1px solid #aaa;
+	margin-bottom: 5px;
+}
+.infoBox p{
+	width: 500px;
+}
+.in-box{
+	height: 195px;
+}
+/*========================================= table ====================================================================================*/
+
+table{
+	background-color: #888888;
+
+}
+th{
+	background-color: #222222;
+	width: 250px;
+	text-align: left;
+	padding-left: 10px;
+	color: #ddd;
+}
+td{
+	height:35px;
+	width: 250px;
+	padding-left: 10px;
+	color: #ddd;
+}
+tr{
+	background-color: #666666;
+}
+tr:nth-child(2n){
+	background-color: #555555;
+
+}
+/*========================================= footer ====================================================================================*/
+
+footer{
+	line-height: 1.4;
+	background-color: #111111;
+	border-bottom: 7px solid #1D1D1D;
+}
+.column{
+	display: inline-block;	
+	width: 140px;
+	height: 170px;
+	border-right: 2px solid #444444;
+	margin-left: 10px; 
+}
+.column:last-child {
+	border-right: none; 
+}
+.columnWrapper{
+	width: 780px;
+	font-size: 0.9em;
+	display: block;
+	margin: 0px auto 80px;
+	padding-top: 25px;
+}
+.end{
+	margin: 0px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 0.8em;
+	color: #333333;
+}
+.adress{
+	color: #aaa;
+}
+.Link, small{
+	text-decoration: underline;
+	color: #aaa;
+}
+.Link:hover, small:hover{
+	color: red;
+	transition: color .5s;
+}
